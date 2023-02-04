@@ -1,0 +1,13 @@
+n = int(input("enter num to find id its factorial: "))
+temp = n
+mul = 1
+if n == 0 or n == 1:
+  print(0)
+
+else:
+    while temp > 0:
+     mul *= temp
+     temp = temp-1
+
+print(mul)     
+     
